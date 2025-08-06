@@ -3,7 +3,6 @@ numbers = list(map(int, input().split()))
 
 count = Counter(numbers)
 keys = list(count.keys())
-
 i = 0
 while i < len(keys):
     num = keys[i]
